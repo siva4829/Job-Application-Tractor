@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    gap: 1;
+    background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+}
+#login input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reg label{
+   height:20px;
+   width: 50px; 
+   display:flex;  
+}
+#reg button{
+    margin-top: 10px;
+    display:flex;
+    justify-content: center;
+}
+#jobform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
